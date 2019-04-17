@@ -1,3 +1,5 @@
+require 'pry'
+
 class Author
   attr_accessor :name
   
@@ -10,9 +12,9 @@ class Author
     @posts
   end
   
-  def add_post(post)
-    @posts << post
-    post.author = self
+  def add_post(boogers)
+    @posts << boogers
+    boogers.author = self
   end  
   
   def add_post_by_title(title)
